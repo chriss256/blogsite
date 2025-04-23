@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teen Science Blog - Home</title>
-    <style>
+      <style>
     :root {
       --font-sans: 'Helvetica Neue', Arial, sans-serif;
       --color-bg: #e6f2e1;
@@ -40,26 +40,19 @@
       .posts ul { flex-direction:column; }
     }
 
-    /* Pure-CSS override to center the nested .hero inside the top banner */
+    /* Pure-CSS override: keep .hero inside the nav, centered at the same Y-level as Home */
     nav {
-      position: relative;
+      position: relative; /* establish containing block */
     }
     nav .logo .hero {
       position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100vw;
-      height: 50vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0;
-      z-index: 5;
+      top: 50%;                   /* vertical center of the nav */
+      left: 50%;                  /* horizontal center of the nav */
+      transform: translate(-50%, -50%);
+      margin: 0;                  /* reset any original offsets */
+      z-index: 5;                 /* beneath the nav’s z-index:10 if needed */
     }
   </style>
-
-
 </head>
 <body>
   <div class="progress" id="progress"></div>
