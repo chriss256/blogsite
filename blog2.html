@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The ÆZ Transmission: Notes from the Fractured Static</title>
+  <style>
+	:root {
+  	--font-sans: 'Helvetica Neue', Arial, sans-serif;
+  	--color-bg: #e6f2e1;
+  	--color-text: #333;
+  	--color-primary: #9e4b20;
+  	--color-accent: #b7410e;
+  	--color-blockquote: #fff0f0;
+  	--max-width: 800px;
+	}
+	html { font-size: 16px; scroll-behavior: smooth; }
+	body { margin:0; font-family: var(--font-sans); background: var(--color-bg); color: var(--color-text); line-height:1.6; }
+	header { position: relative; text-align: center; color: white; }
+	header .hero { background: url('') center/cover no-repeat; height: 50vh; display:flex; align-items:center; justify-content:center; position: relative; }
+	header h1 { font-size:2.5rem; background: rgba(0,0,0,0.6); padding:0.5rem 1rem; border-radius:5px; }
+	nav { position: sticky; top:0; background:white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); z-index:10; display:flex; justify-content:space-between; align-items:center; padding:0.5rem 1rem; }
+	nav .logo { display: flex; align-items: center; gap: 0.5rem; }
+	nav .logo img { width: 40px; height: 40px; border-radius: 50%; }
+	nav button { background:none; border:1px solid var(--color-primary); color:var(--color-primary); padding:0.3rem 0.6rem; border-radius:4px; cursor:pointer; }
+	.progress { position: fixed; top:0; left:0; width:0; height:4px; background: var(--color-accent); z-index:20; }
+	main { max-width:var(--max-width); margin:2rem auto; padding:0 1rem; }
+	.meta { color:#777; font-size:0.9rem; margin-bottom:1rem; }
+	h2 { font-size:2rem; margin-top:1.5rem; }
+	h3 { font-size:1.2rem; margin-top:1rem; color: var(--color-primary); }
+	img.feature { width:100%; height:auto; border-radius:5px; margin:1rem 0; }
+	section img { width:100%; height:auto; border-radius:5px; margin:1rem 0; }
+	blockquote { background: var(--color-blockquote); padding:1rem; border-left:4px solid var(--color-accent); font-style:italic; margin:1.5rem 0; }
+	.toc { background:#fff; border:1px solid #ddd; padding:1rem; border-radius:5px; margin:2rem 0; }
+	.toc h3 { margin-bottom:0.5rem; }
+	.toc ul { list-style: none; padding-left:1rem; }
+	.toc ul li { margin:0.5rem 0; }
+	.related, .comments, .author { max-width:var(--max-width); margin:2rem auto; padding:0 1rem; }
+	.related h3, .comments h3, .author h3 { margin-bottom:1rem; color: var(--color-primary); }
+	.related ul { list-style:none; display:flex; gap:1rem; flex-wrap:wrap; }
+	.related li { flex:1 1 calc(33% - 1rem); background:#fff; padding:1rem; border-radius:5px; box-shadow:0 1px 3px rgba(0,0,0,0.1); }
+	.author { display:flex; align-items:center; gap:1rem; background:#fff; padding:1rem; border-radius:5px; box-shadow:0 1px 3px rgba(0,0,0,0.1); }
+	.author img { width:80px; height:80px; border-radius:50%; }
+	.dark-mode { background:#1e1e1e; color:#ddd; }
+	.dark-mode .toc, .dark-mode .author, .dark-mode .related li { background:#2a2a2a; border-color:#444; }
+	.dark-mode blockquote { background:#333; }
+	@media (max-width: 600px) {
+  	header h1 { font-size:1.8rem; }
+  	.related ul { flex-direction:column; }
+	}
+  </style>
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="IMG_222.png" alt="Logo">
+        <a href="index.html" style="text-decoration: none; color: var(--color-primary); font-weight: bold;">Home</a>
+  
+      </div>
+    </nav>
+    <div class="hero" style="background: url('https://source.unsplash.com/featured/1600x900/?static,noise,glitch') center/cover no-repeat;">
+      <h1>The ÆZ Transmission: <br> Notes from the Fractured Static</h1>
+    </div>
+  </header>
+  <main>
+    <p class="meta">April 23, 2025 • by <a href="#author">Christopher Streif</a></p>
+    <img class="feature" src="https://source.unsplash.com/featured/800x400/?etch-a-sketch" alt="Close-up of Etch-A-Sketch screen">
+    <div class="toc">
+      <h3>Contents</h3>
+      <ul>
+        <li><a href="#introduction">Origin of the Signal</a></li>
+        <li><a href="#measuring">Interference & Detection Attempts</a></li>
+        <li><a href="#factors">Unorthodox Experiments</a></li>
+        <li><a href="#controlling">Lava Lamps and Binary Owls</a></li>
+        <li><a href="#conclusion">Still Listening</a></li>
+      </ul>
+    </div>
+    <section id="introduction">
+      <h2>In the yξar ø6Z⌬, under the ███ of the 3rd ¢rescent qÿlem...</h2>
+      <p>...a w@veform—denot∑d ☼₼Θ--”|||<✱⍢—beɠan transmi††ing through the cr∂st of a lºng-forg⊕tten Etch-A-Sketch. Dec⊗ded only through an inv∉rted ß-plas∰a kaleidog®id, its pa††ern resembled ᒣaRΔ+⧉Ϟ, though some ins!st it humm∄d the tune of a corrΨpted Noκia ring†one. A††empts to chart its s⊕urce using standa®d ∫⊠ spectr☯cryptometry resulted in a ⊛puff of lav∑nder mist and one br0ken calcµlator. The t≠am disbanded after the lead scie₥tist grew ƒeathers.</p>
+      <img src="https://source.unsplash.com/featured/800x400/?waveform,glitch" alt="Glitched electronic waveform">
+    </section>
+    <section id="measuring">
+      <h2>One paɍ†icularly rogue ex⊥eriment—codenamed ∅r3ª₽-ʬΠ|L7—</h2>
+      <p>...suggest∇d that if you bl3nd m@rshmallow fluff with ⓜagnetite and hum a B♭ into a ¢opper ladle, the ∮signal will re∱emerge thro∡gh your nearest lava ʆamp. Interpretatiⁿs varied: some saw the face of a binary ⦿wl, o†hers just smelled burnt t✕ast.</p>
+      <img src="https://source.unsplash.com/featured/800x400/?kaleidoscope,plasma" alt="Plasma kaleidoscope pattern">
+    </section>
+    <section id="factors">
+      <h2>A not€ alleged⌘ly written in invisible ink...</h2>
+      <p>...on the back of a receip† from 1997 read, “He who ⌖controls the √ξ data stream controls the ∄.” The rest of the recΣipt was eat€n by ants during a so⌁ar eclipse.</p>
+      <img src="https://source.unsplash.com/featured/800x400/?lava,lamp" alt="Glowing lava lamp">
+    </section>
+    <section id="controlling">
+      <h2>No v€rifiable output has been pub⌦lished since...</h2>
+      <p>...the ☊expeʁiment self-fo∮ded into a Klei₪ bottle ⧸eplica. But enthus!asts still g@ther every 4th W₿ednesday to whi⌬per encɍypted lullabies into their oscillating fan⌂s, hoping to catch a bl!p of the original ÆZ signal.</p>
+      <img src="https://source.unsplash.com/featured/800x400/?owl,binary,code" alt="Binary owl digital art">
+    </section>
+    <section id="conclusion">
+      <h2>If you find yours℮lf staring t∞o long at sta†ic...</h2>
+      <p>...and begin dreaming in Morse ∑mushrooms, maybe—just mayb≡—you’re on the right tra↯k. Or the wrΩng one. Ho₤estly, wh○ can tell a₣ymore?</p>
+      <img src="https://source.unsplash.com/featured/800x400/?mushrooms,morse,code" alt="Morse mushrooms illustration">
+    </section>
+  </main>
+  <section id="author">
+  <div class="author">
+	<img src="IMG_3497.jpeg" alt="ME" style="position: relative; display: inline-block; filter: contrast(1.5) brightness(0.8); animation: glitch-animation 1s infinite linear;">
+
+<style>
+  @keyframes glitch-animation {
+    0% { transform: translate(0, 0); }
+    10% { transform: translate(-5px, -5px); }
+    20% { transform: translate(5px, 5px); }
+    30% { transform: translate(-3px, 3px); }
+    40% { transform: translate(2px, -2px); }
+    50% { transform: translate(-4px, -4px); }
+    60% { transform: translate(4px, 4px); }
+    70% { transform: translate(0, 0); }
+    100% { transform: translate(0, 0); }
+  }
+</style>
+	<div>
+  	<h3>Ϯђɛ λυ†ђøя</h3>
+  	<p>§ĝƈ¶ĵ₥•ƀ∑₧≈Ƣ∂¥≠…⧫╬♣•¶—∂↔εɵζ∏╭⊗†</p>
+	</div>
+  </div>
+  </section>
+  <section class="related">
+	<h3>T0t4l1y R34l 0th3r P0st$</h3>
+	<ul>
+  	<li><a href="blog.html"><strong>Race Against Rust</strong></a></li>
+  	<li><a href="#"><strong>This Other Post</strong></a></li>
+  	<li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><strong>Another One</strong></a></li>
+  	<li><a href="#"><strong>The Last One</strong></a></li>
+	</ul>
+  </section>
+  <script>
+	const progress = document.getElementById('progress');
+	document.addEventListener('scroll', () => {
+  	const scrollPos = window.scrollY;
+  	const docHeight = document.body.scrollHeight - window.innerHeight;
+  	const scrollPercent = (scrollPos / docHeight) * 100;
+  	progress.style.width = scrollPercent + '%';
+	});
+  </script>
+</body>
+</html>
